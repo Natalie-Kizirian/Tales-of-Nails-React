@@ -11,7 +11,7 @@ function About() {
     <>
 
     <h1 className="text-2xl font-bold text-center p-4 
-    border-t">Λίγα Λόγια Για Εμάς</h1>
+    ">Λίγα Λόγια Για Εμάς</h1>
 
 
 

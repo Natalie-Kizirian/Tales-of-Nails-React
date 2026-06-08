@@ -6,7 +6,7 @@ function NavBar() {
     "hover:text-primary px-2 md:px-6 py-2  hover:rounded-md hover:bg-[#F5F1EE] transition-all duration-300 whitespace-nowrap";
   return (
     <>
-      <header className="bg-primary lg:bg-white-color flex w-full items-center justify-between p-4 shadow-lg md:flex-row">
+      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between p-2 shadow-lg md:flex-row">
         <div className="flex items-center gap-3">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
@@ -37,7 +37,8 @@ function NavBar() {
             </a>
           </div>
           <button className="button-primary hover:bg-primary-hover w-full rounded-lg p-3 text-sm font-medium md:w-auto md:text-base">
-            Κλείστε το Ραντεβού σας!
+            <a href="#contact">Κλείστε το Ραντεβού σας!</a>
+            
           </button>
         </div>
 
@@ -66,16 +67,32 @@ function NavBar() {
         >
           &#10006;
         </button>
-        <a href="#home" className={`${linkStyles} border-b`}>
+        <a
+          href="#home"
+          onClick={() => setActiveMenu(false)}
+          className={`${linkStyles} border-b`}
+        >
           Αρχική
         </a>
-        <a href="#services" className={`${linkStyles} border-b`}>
+        <a
+          href="#services"
+          onClick={() => setActiveMenu(false)}
+          className={`${linkStyles} border-b`}
+        >
           Υπηρεσίες
         </a>
-        <a href="#about" className={`${linkStyles} border-b`}>
+        <a
+          href="#about"
+          onClick={() => setActiveMenu(false)}
+          className={`${linkStyles} border-b`}
+        >
           Ποιοι είμαστε
         </a>
-        <a href="#contact" className={`${linkStyles} border-b`}>
+        <a
+          href="#contact"
+          onClick={() => setActiveMenu(false)}
+          className={`${linkStyles} border-b`}
+        >
           Επικοινωνία
         </a>
       </div>

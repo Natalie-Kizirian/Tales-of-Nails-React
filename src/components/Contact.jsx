@@ -2,18 +2,18 @@ import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlinePhone } from "react-icons/hi";
 
 function Contact() {
-  const listStyle = "flex justify-between ";
+  const listStyle = "flex justify-between md:mx-28";
   const titleStyle = "lg:text-xl font-semibold text-md text-center";
   const iconStyle = "text-xl";
   const cardStyles =
     "bg-white-color border-secondary flex w-full flex-col gap-2 rounded-2xl border p-4 drop-shadow-xl h-full";
   return (
     <>
-      <h1 className="mt-5 text-center text-xl font-bold  ">
+      <h1 className="pt-5 text-center text-xl font-bold border-t">
         Επικοινωνήστε Μαζί Μας
       </h1>
 
-      <div className="flex flex-col items-center justify-around gap-7 p-6 lg:m-auto lg:w-1/2 ">
+      <div className="flex flex-col items-center justify-around gap-7 p-6 lg:m-auto lg:w-1/2">
         <div className={cardStyles}>
           <h2 className={titleStyle}>Τηλεφωνο Επικοινωνίας</h2>
 

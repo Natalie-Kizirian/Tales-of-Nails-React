@@ -54,6 +54,8 @@ body {
   background-color: var(--color-primary-hover);
   transition: ease-in-out 500ms;
 }
-@theme {
-  --color-primary: #987555;
+
+
+html {
+  scroll-behavior: smooth;
 }

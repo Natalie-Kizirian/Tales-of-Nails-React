@@ -2,8 +2,6 @@ import mainIcon from "../assets/main-icon.png";
 function Home() {
   return (
     <main className="flex w-full flex-col items-center justify-center p-4">
-    
-        {" "}
         <h2 className="text-center text-2xl font-bold">
           Καλώς ορίσατε στο <br /> Gr Tales of Nails
         </h2>

@@ -18,7 +18,7 @@ function App() {
         <Home />
       </section>
 
-      <section id="services" className="scroll-mt-20">
+      <section id="services" className="scroll-mt-30">
         {" "}
         <Services id="#services" showModal={() => setModalVisible(true)} />
       </section>
@@ -34,7 +34,7 @@ function App() {
       </section>
 
       <a href="#home" className=" ">
-        <IoIosArrowUp className="text-primary-dark ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
+        <IoIosArrowUp className="text-text-color bg-secondary fixed bottom-2 right-2 ml-auto flex h-10 w-10 justify-end rounded-2xl border text-3xl" />
       </a>
 
       <Footer />

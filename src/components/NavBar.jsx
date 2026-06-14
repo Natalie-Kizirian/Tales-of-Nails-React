@@ -36,10 +36,7 @@ function NavBar() {
               Επικοινωνία
             </a>
           </div>
-          <button className="button-primary hover:bg-primary-hover w-full rounded-lg p-3 text-sm font-medium md:w-auto md:text-base">
-            <a href="#contact">Κλείστε το Ραντεβού σας!</a>
-            
-          </button>
+         
         </div>
 
         {/* Mobile Menu Button */}

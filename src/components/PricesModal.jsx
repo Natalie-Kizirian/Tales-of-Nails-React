@@ -9,13 +9,12 @@ function PricesModal({ closeModal }) {
       ],
     },
     {
-      category: "Πεντικιούρ",
+      category: "Πεντικιούρ ",
       service: [
         { name: "Πεντικιούρ Απλο", price: "20€" },
         { name: "Πεντικιούρ Ημιμόνιμο", price: "25€" },
         { name: "Θεραπευτικό", price: "30€" },
         { name: "Spa", price: "35€" },
-     
       ],
     },
     {
@@ -25,7 +24,6 @@ function PricesModal({ closeModal }) {
         { name: "Τοποθέτηση", price: "40€" },
         { name: "Συντήρηση", price: "35€" },
         { name: "Τοποθέτηση", price: "40€" },
-     
       ],
     },
     {
@@ -35,7 +33,6 @@ function PricesModal({ closeModal }) {
         { name: "Σχηματισμός Φρυδιών", price: "10€" },
         { name: "Μουστάκι", price: "5€" },
         { name: "Ολο το πρόσωπο", price: "20€" },
-     
       ],
     },
   ];
@@ -61,9 +58,10 @@ function PricesModal({ closeModal }) {
         <div>
           {priceList.map((categoryName, index) => (
             <div key={index} className="mb-10">
-              <h3 className="text-text-color border-primary-hover/50 mb-4 border-b-2 pb-2 text-xl font-bold">
+              <h3 className="text-text-color border-primary-hover/50 mb-4 text-xl font-bold underline underline-offset-7">
                 {categoryName.category}
               </h3>
+            
 
               <ul className="flex flex-col gap-4">
                 {categoryName.service.map((service, i) => (

@@ -4,7 +4,7 @@ function Services({showModal}) {
   const titleStyles = "text-lg font-semibold border-b mb-2";
   return (
     <>
-      <div className="bg-primary-dark flex flex-col items-center gap-3 p-3 lg:p-6">
+      <div className="bg-primary-dark flex flex-col items-center gap-3 p-3 lg:p-10">
         <h1 className="text-white-color text-xl font-semibold">
           Οι υπηρεσίες μας
         </h1>

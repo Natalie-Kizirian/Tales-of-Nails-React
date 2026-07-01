@@ -6,7 +6,7 @@ function NavBar() {
     "hover:text-primary px-2 md:px-6 py-2  hover:rounded-md hover:bg-[#F5F1EE] transition-all duration-300 whitespace-nowrap";
   return (
     <>
-      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between p-2 shadow-lg md:flex-row">
+      <header className="bg-primary lg:bg-white-color/90 sticky top-0 z-20 flex w-full items-center justify-between p-3 shadow-lg md:flex-row px-10">
         <div className="flex items-center gap-3">
           <img
             className="h-16 w-16 md:h-20 md:w-20"
@@ -21,7 +21,7 @@ function NavBar() {
             <h2 className="font-alegreya text-lg font-light">Nail Salon</h2>
           </div>
         </div>
-        <div className="hidden w-full flex-col items-center justify-between gap-3 md:w-auto md:flex-row md:gap-5 lg:flex">
+        <div className="hidden w-full flex-col items-center justify-between gap-3 md:w-auto md:flex-row md:gap-5 lg:flex ">
           <div className="flex items-center gap-2 text-sm md:text-lg">
             <a href="#home" className={linkStyles}>
               Αρχική

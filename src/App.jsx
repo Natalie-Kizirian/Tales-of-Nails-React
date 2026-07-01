@@ -20,7 +20,7 @@ function App() {
 
       <section id="services" className="scroll-mt-30">
         {" "}
-        <Services id="#services" showModal={() => setModalVisible(true)} />
+        <Services id="services" showModal={() => setModalVisible(true)} />
       </section>
       <section id="about" className="scroll-mt-20">
         <About />

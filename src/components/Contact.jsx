@@ -63,7 +63,7 @@ function Contact() {
           </div>
 
           <iframe
-            className="rounded-2xl border border-gray-400"
+            className="rounded-2xl border border-gray-400 h-50"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12580.126031805647!2d23.64422!3d37.976394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bb4b96ab4a8d%3A0x3a50198a66a328c7!2sGR%20Tales%20of%20Nails!5e0!3m2!1sel!2sgr!4v1764107389480!5m2!1sel!2sgr"
             loading="lazy"
           ></iframe>

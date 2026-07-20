@@ -40,11 +40,14 @@ function Footer() {
             </p>
 
             <div className="flex justify-center gap-2">
-              <a href="">
+              <a
+                href="https://www.instagram.com/gr_talesofnails/"
+                target="_blank"
+              >
                 {" "}
                 <IoLogoInstagram className={iconStyle} />
               </a>
-              <a href="#">
+              <a href="https://www.tiktok.com/@talesofnailsgr" target="_blank">
                 <FaTiktok className={iconStyle} />
               </a>
             </div>

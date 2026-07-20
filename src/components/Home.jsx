@@ -1,5 +1,6 @@
 import mainIconMobile from "../assets/main-icon.png";
-import mainIconDesktop from "../assets/Vector.svg";
+import mainIconDesktop from "../assets/Vector.png";
+
 function Home() {
   return (
     <main className="flex w-full items-center justify-center p-4 ">

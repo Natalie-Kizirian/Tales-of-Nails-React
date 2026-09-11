@@ -1,6 +1,6 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTiktok } from "react-icons/fa";
-import logo from "../assets/gr-logo2.png"
+import logo from "../assets/gr-logo2.png";
 function Footer() {
   const iconStyle = "text-xl";
 
@@ -9,11 +9,7 @@ function Footer() {
     <footer className="w-full">
       <div className="bg-secondary w-full p-4 shadow-inner ring-inset">
         <div className="flex flex-col items-center justify-center border-b">
-          <img
-            className="h-16 w-16 md:h-20 md:w-20"
-            src={logo}
-            alt="Logo"
-          />
+          <img className="h-16 w-16 md:h-20 md:w-20" src={logo} alt="Logo" />
 
           <h2 className="font-alegreya text-xl font-light md:text-2xl">
             Gr Tales Of Nails
@@ -59,8 +55,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-primary bg-primary w-full space-y-2 border-t py-2 text-center">
-        <p className="text-sm text-text-color">
+      <div className="bg-bg w-full space-y-2 py-2 text-center">
+        <p className="text-text-color text-sm">
           © {new Date().getFullYear()} GR Tales of Nails. All rights reserved.
         </p>
         <p className="text-text-color text-sm">
